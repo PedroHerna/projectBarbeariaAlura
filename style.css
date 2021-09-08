@@ -1,0 +1,103 @@
+
+header{
+    background: #333533;
+    padding: 20px;
+}
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left:15px;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #f5cb5c;
+}
+
+
+.produto{
+    width: 940px;
+    margin: 0 auto;
+    padding:50px 0;
+
+}
+
+.catalogo{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.catalogo:hover{
+    border-color: #f5cb5c;
+    transition: 0.4s;
+
+}
+
+
+
+.catalogo:hover h2{
+    transition: 1s;
+    font-size: 34px;
+    color: #f5cb5c;
+}
+
+.catalogo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.catalogo-definicao{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.catalogo-preco{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rodape{
+    background: url("./bg.jpg");
+    text-align: center;
+    color: aliceblue;
+    padding: 40px 0;
+}
+
+.copyright{
+    font-size: 14px;
+    margin: 20px;
+}
+
+
+

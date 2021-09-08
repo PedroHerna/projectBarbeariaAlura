@@ -1,0 +1,100 @@
+body{
+    background: #242423;
+}
+
+header{
+    background: #333533;
+    padding: 20px;
+}
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px ;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    color:whitesmoke;
+}
+
+nav a:hover{
+    color: #f5cb5c;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, .contatos legend, .dropdown legend{
+    display: block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #f5cb5c;
+    margin-bottom: 10px;
+}
+
+.contatos-diferente input, textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 9px;
+}
+
+.dropdown{
+    margin: 20px 0;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.botaoenvio{
+    width: 40%;
+    padding: 15px 0;
+    background: #333533;
+    color:whitesmoke;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background 1s width;
+    cursor: pointer;
+}
+
+.botaoenvio:hover{
+    transition: 1s;
+    color:#333533;
+    background: whitesmoke;
+    width: 50%;
+    transition: 1s;
+}
+
+footer{
+    background: url(./bg.jpg);
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px 0;
+}
